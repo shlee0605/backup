@@ -20,9 +20,9 @@ export PATH=/usr/local/share/npm/bin:$PATH
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # big data apps
-export PATH=$PATH:/Users/shlee0605/bigdata/hadoop-1.2.1/bin
+export PATH=$PATH:/Users/shlee0605/bigdata/hadoop-2.6.0/bin
 export PATH=$PATH:/Users/shlee0605/bigdata/hbase-0.98.9/bin
-
+export JAVA_HOME=$(/usr/libexec/java_home)
 
 alias 516='cd /Users/shlee0605/Dropbox/spring15/cs516'
 alias 309='cd /Users/shlee0605/Dropbox/spring15/cs309s'
